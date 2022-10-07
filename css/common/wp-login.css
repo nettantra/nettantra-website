@@ -23,7 +23,7 @@ body.login #login > div {
   margin-right: auto;
 }
 
-body.login #login > h1 > a {
+body.login #login > h1 {
   height: 114px;
   width: 380px;
   background-image: url(../../images/common/logo.svg);
@@ -32,6 +32,10 @@ body.login #login > h1 > a {
   display: block;
   background-size: contain;
   filter: grayscale(1) brightness(5);
+}
+
+body.login #login > h1 a {
+  display: none;
 }
 
 body.login #login > form {
