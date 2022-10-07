@@ -67,13 +67,23 @@ body.login #login > form input[type=week] {
   display: none;
 }
 
-body.login body.login #login #nav,
-body.login body.login #login #nav a {
+body.login #login #nav,
+body.login #login #nav a {
   color: #fff !important;
   text-shadow: none !important;
   text-align: center;
 }
-body.login body.login #login #nav a:hover,
-body.login body.login #login #nav a:focus {
+body.login #login #nav a:hover,
+body.login #login #nav a:focus {
   text-decoration: underline;
+}
+
+body.login #login #wp-submit {
+  display: block;
+  float: none;
+  width: 100%;
+}
+
+body.login #login .wp_google_login {
+  margin: 15px auto 0;
 }
