@@ -14,7 +14,8 @@ body.login #login {
   padding: 0;
 }
 
-body.login #login p {
+body.login #login > p,
+body.login #login > div {
   width: 100%;
   box-sizing: border-box;
   max-width: 520px;
