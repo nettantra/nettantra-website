@@ -14,9 +14,12 @@ body.login {
 #login > h1 > a {
   height: 114px;
   width: 380px;
-  background-image: url("https://www.nettantra.com/images/logo.svg");
+  background-image: url(../../images/common/logo.svg);
   margin: auto;
+  background-position: center center;
   display: block;
+  background-size: contain;
+  filter: grayscale(1) brightness(5);
 }
 
 #login > form {
