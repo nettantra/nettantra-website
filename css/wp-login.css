@@ -1,0 +1,46 @@
+body.login {
+  display: flex;
+}
+
+#login {
+  width: 100%;
+  background: none;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#login > h1 > a {
+  height: 114px;
+  width: 380px;
+  background-image: url("https://www.nettantra.com/images/logo.svg");
+  margin: auto;
+  display: block;
+}
+
+#login > form {
+  max-width: 520px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 2px 0 rgb(47 52 61 / 8%),
+    0 0 12px 0 rgb(47 52 61 / 12%);
+  box-shadow: 0 0 2px 0 rgb(47 52 61 / 8%), 0 0 12px 0 rgb(47 52 61 / 12%);
+}
+
+#backtoblog {
+  display: none;
+}
+
+body.login #login #nav,
+body.login #login #nav a {
+  color: #fff !important;
+  text-shadow: none !important;
+  text-align: center;
+}
+body.login #login #nav a:hover,
+body.login #login #nav a:focus {
+  text-decoration: underline;
+}
