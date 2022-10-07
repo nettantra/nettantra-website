@@ -26,6 +26,8 @@ body.login {
 }
 
 #login > form {
+  width: 100%;
+  box-sizing: border-box;
   max-width: 520px;
   margin: 20px auto;
   padding: 20px;
