@@ -27,10 +27,11 @@ body.login #login > h1 {
   height: 114px;
   width: 380px;
   background-image: url(../../images/common/logo.svg);
-  margin: 0 auto;
   background-position: center center;
-  display: block;
+  background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 auto;
+  display: block;
   filter: grayscale(1) brightness(5);
 }
 
