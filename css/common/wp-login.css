@@ -27,7 +27,7 @@ body.login #login > h1 {
   height: 114px;
   width: 380px;
   background-image: url(../../images/common/logo.svg);
-  margin: auto;
+  margin: 0 auto;
   background-position: center center;
   display: block;
   background-size: contain;
