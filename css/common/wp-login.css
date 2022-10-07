@@ -84,6 +84,8 @@ body.login #login #wp-submit {
   display: block;
   float: none;
   width: 100%;
+  font-size: 15px;
+  padding: 8px 12px;
 }
 
 body.login #login .wp_google_login {
